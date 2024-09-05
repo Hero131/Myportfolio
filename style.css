@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6C63FF;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #6C63FF, #FF6584);
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 80px 0;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.progress {
+    background-color: #ddd;
+}
+
+.progress-bar {
+    background-color: #6C63FF;
+}
+
+/* Project Cards */
+.card-title {
+    color: #6C63FF;
+}
+
+.btn-primary {
+    background-color: #FF6584;
+    border: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #FF6584;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
